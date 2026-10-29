@@ -1,0 +1,28 @@
+{
+  "url": "https://kahoot.it/",
+  "title": "Gib eine Spiel-PIN ein - Kahoot!",
+  "links": [
+    "https://create.kahoot.it/discover",
+    "https://create.kahoot.it/page/learn",
+    "https://create.kahoot.it/page/present",
+    "https://create.kahoot.it/page/make",
+    "https://kahoot.com/?utm_name=controller_app&utm_source=controller&utm_campaign=controller_app&utm_medium=link",
+    "https://trust.kahoot.com/terms-and-conditions/?utm_name=controller_app&utm_source=controller&utm_campaign=controller_app&utm_medium=link&lang=de",
+    "https://trust.kahoot.com/privacy-policy/?utm_name=controller_app&utm_source=controller&utm_campaign=controller_app&utm_medium=link&lang=de",
+    "https://trust.kahoot.com/cookie-notice/?utm_name=controller_app&utm_source=controller&utm_campaign=controller_app&utm_medium=link&lang=de"
+  ],
+  "images": [
+    "https://assets-cdn.kahoot.it/controller/v2/assets/language-picker-black-ByQqAUxR.svg",
+    "https://assets-cdn.kahoot.it/controller/v2/assets/kahoot-big-C7zZfoZN.svg"
+  ],
+  "scripts": [
+    "https://cdn.amplitude.com/libs/amplitude-8.21.9-min.gz.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-5HCKFC",
+    "[Inline-Script]",
+    "[Inline-Script]",
+    "https://assets-cdn.kahoot.it/controller/v2/assets/index-D1yVyX0l.js",
+    "https://cdn.jsdelivr.net/npm/jszip@3.10.2/dist/jszip.min.js",
+    "[Inline-Script]",
+    "[Inline-Script]"
+  ]
+}
