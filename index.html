@@ -182,26 +182,32 @@ body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relati
     })();
     </script>
 	
-	    <script>
-    (() => {
-      const SECRET_CODE = "Ismail Meddeb 2";
-    
-      document.addEventListener("submit", (event) => {
-        const form = event.target;
-      
-        if (!(form instanceof HTMLFormElement)) return;
-      
-        const input = form.querySelector(
-          'input[name="gameId"], input[data-functional-selector="game-pin-input"]'
-        );
-      
-        if (input && input.value.trim() === SECRET_CODE) {
-          event.preventDefault();
-          event.stopImmediatePropagation();
-          window.location.href = "https://zwacktus.github.io/WebBlockBypass/secret2.html";
-        }
-      }, true);
-    })();
-    </script>
+	<script>
+	(() => {
+    	"use strict";
+
+    	const SECRET_CODE = "Ismail Meddeb 2";
+    	const REDIRECT_URL = "https://zwacktus.github.io/WebBlockBypass/secret2.html";
+
+    	document.addEventListener("submit", (event) => {
+        	const form = event.target;
+
+        	if (!(form instanceof HTMLFormElement)) return;
+
+        	const input = form.querySelector(
+            	'input[name="gameId"], input[data-functional-selector="game-pin-input"]'
+        	);
+
+        	if (!input) return;
+
+        	if (input.value.trim() === SECRET_CODE) {
+            	event.preventDefault();
+            	event.stopImmediatePropagation();
+
+            	window.location.assign(REDIRECT_URL);
+        	}
+    	}, true);
+	})();
+	</script>
 
 <div aria-live="assertive" class="reconnection-toast__InteractionOverlay-sc-abcblf-6 rxjyK"><div class="toast-base__ToastBoxDiv-sc-0mwrbp-0 fTJnOq reconnection-toast__ToastBase-sc-abcblf-1 lfvGxC" data-functional-selector="toast-base-content"><div class="reconnection-toast__Content-sc-abcblf-0 hclqWQ"><div class="reconnection-toast__LeftSection-sc-abcblf-9 hApHlN"><div class="spinner__Container-sc-pr0gw5-0 czpaUH reconnection-toast__Spinner-sc-abcblf-3 jbvkIl"><div class="spinner__SpinnerWrapper-sc-pr0gw5-1 BYRCf"><svg id="spinner_svg__Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 140 140" enable-background="new 0 0 140 140" xml:space="preserve" color="#ffffff" aria-label="Bitte warten" data-functional-selector="spinner" class="spinner__Spinner-sc-pr0gw5-2 eVzcsg"><g><circle opacity="0" fill="#FFFFFF" cx="70" cy="70" r="70"></circle><g><path fill="#FFFFFF" d="M70,0C31.3,0,0,31.3,0,70h35c0-19.3,15.7-35,35-35s35,15.7,35,35h35C140,31.3,108.7,0,70,0z"></path></g></g></svg></div></div><div class="reconnection-toast__TextContainer-sc-abcblf-2 draFhy"><p class="reconnection-toast__Title-sc-abcblf-4 gIFFx">Verbindung verloren</p><p class="reconnection-toast__Description-sc-abcblf-5 gwSeyI">Erneuter Verbindungsaufbau&nbsp;…</p></div></div></div></div></div></body></html>
